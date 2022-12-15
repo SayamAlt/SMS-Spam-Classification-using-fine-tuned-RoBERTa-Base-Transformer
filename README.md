@@ -25,6 +25,19 @@ In this project, I've trained and fine-tuned a RoBERTa-Base Spam Detection Class
   </tr>
 </table>
 
+## Model Architecture Explanation
+
+The transformer model used is a fine-tuned version of roberta-base on the sms-spam dataset. It achieves the following results on the test set:
+
+<ul>
+  <li>Accuracy: 0.9923</li>
+  <li>Loss: 0.0486</li>
+</ul>
+
+The overall architecture of the fine-tuned RoBERTa-Base spam detection transformer model is plotted below:
+
+![Model Architecture](https://www.kaggleusercontent.com/kf/113846181/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..wpilX0T2DB1c8YgTllxCdQ.QJtJ5oSYBVaiRz8unsbFDF_S2S48teQqtRLrCSYQlcif6DgAlBjnAORlJw1QlhBqaY7kuG8MpvckXHQ1iNdJIMm4H2dEGkLInNx91kE6iTjxSnIZD3grdk_X1TO-sUsTvKNS3o4KPAEbLe1QwNClsLcm8hYF4M_f4h7oMTl9cv_aGSWpNzqHaqjBKO-4DpWboxE2-_rZYfMxfh_NVp9GomSVxmDx6wPFTZRM49fL4owF-qVSJ7bWtIXc8v2p6bLX6As2sF9-qXj7QOtju8eIQUtzIuV0vypm-Jy4dcyIA_yjM49MhJLQRJnLGhR4AWetHST73KjY51MsSXrFxmyYluVtV6-q-CqLv5OizjdKfKWOelA3JwFvTfXf8RzUnQeHcHEf90bgwho-Ov73OG4k8uaPZ3ps9vmSAmMNtOcSS103gfG4nANa6VYT_NwUaF0n5iivChk1r2TjQxMZ9vSbrJhr99igzIycg3MFGcsEx1k7k18FYuBfpzcEwyh6hftRjRQQYynJM_Pp3MJU3wCQarQfqqohEyjy3JCTln7-lik44-xrl4G9w2bhPCYkD0bv8DJXkFFoS0RQ_tfkCoZZ4vpIylSeyZXVbgEAxIcXI18m7vFLsya0S-VkKtvikHjzhTs-uWrKBLUbk-gn1dAv77SJec7hNyBoqbSueiDeswo.r1XQoU9ZCAxF1ttSzlBf4Q/ROBERTA-BASE-FINETUNED-SMS-SPAM-DETECTION.png)
+
 ## Detailed API Reference
 
 The libraries used for implementing this project are as follows:
