@@ -31,7 +31,7 @@ The libraries which need to be installed for implementing this project are as fo
 
 <ol type='i'>
   <li>wget: It is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc. To install this library, execute the following command:
-```
+```bash
 pip install wget 
 ```  </li>
   <li>transformers: The Hugging Face transformers package is an immensely popular Python library providing pretrained models that are extraordinarily useful for a variety of natural language processing (NLP) tasks. You need to execute the following command for installing this library:
