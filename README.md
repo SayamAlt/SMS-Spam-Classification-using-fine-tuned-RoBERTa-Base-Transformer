@@ -72,7 +72,7 @@ For installing the above mentioned libraries, execute the following command:
  
 ```
 
-The dataset can be accessed through the following 2 links:
+The sms spam classification dataset can be accessed through the following 2 links:
 
 <ul>
   <li><a href="https://www.kaggle.com/datasets/thedevastator/sms-spam-collection-a-more-diverse-dataset">Kaggle Link</a></li>
