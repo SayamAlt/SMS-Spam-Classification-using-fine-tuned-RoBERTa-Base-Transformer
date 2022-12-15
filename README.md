@@ -41,18 +41,11 @@ The libraries used for implementing this project are as follows:
   <li>wordcloud: Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites.</li>
 </ol>
 
-For installing the above mentioned libraries, execute the following commands:
+For installing the above mentioned libraries, execute the following command:
 
 ```bash
 
- pip install wget
- pip install transformers
- pip install numpy
- pip install pandas
- pip install matplotlib
- pip install seaborn 
- pip install scikit-learn
- pip install wordcloud
+ pip install wget transformers numpy pandas matplotlib seaborn scikit-learn wordcloud
  
 ```
 The dataset can be accessed through the following 2 links:
