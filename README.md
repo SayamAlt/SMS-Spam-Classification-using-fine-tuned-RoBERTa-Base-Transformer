@@ -44,8 +44,9 @@ The libraries which need to be installed for implementing this project are as fo
   pip install numpy</li>
   <li>pandas: Pandas is an open source Python package that is most widely used for data science/data analysis and machine learning tasks. It is built on top of another package named Numpy, which provides support for multi-dimensional arrays. You'll have to execute the following command for installing the Pandas library:
   pip install pandas</li>
-  <li>sklearn: It is probably the most useful library for machine learning in Python. The sklearn library contains a lot of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction. To install scikit-learn, you need to run the following command:
-  pip install scikit-learn</li>
+  <li>sklearn: It is probably the most useful library for machine learning in Python. The sklearn library contains a lot of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction. 
+  To install scikit-learn, you need to run the following command:
+    **pip install scikit-learn**</li>
   <li>wordcloud: Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites. You'll have to run the following command for installing this library:
   pip install wordcloud</li>
 </ol>
