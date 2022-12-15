@@ -8,7 +8,7 @@ In this project, I've trained and fine-tuned a RoBERTa-Base Spam Detection Class
 
 ## Dataset Description
 
-The SMS Spam Collection v.1 is a public set of SMS messages that have been collected and labeled as either spam or not spam. This dataset contains 5574 English, real, and non-encoded messages, tagged as being legitimate(ham) or spam. The SMS messages are thought-provoking and eye-catching. The dataset is useful for facilitating mobile phone spam research. The dataset has been collected from various sources and is released under the CC BY-SA 4.0 license by Kaggle user Almeida et al.
+<p>The SMS Spam Collection v.1 is a public set of SMS messages that have been collected and labeled as either spam or not spam. This dataset contains 5574 English, real, and non-encoded messages, tagged as being legitimate(ham) or spam. The SMS messages are thought-provoking and eye-catching. The dataset is useful for facilitating mobile phone spam research.</p>
 
 <table>
   <tr>
@@ -54,6 +54,15 @@ The dataset can be accessed through the following 2 links:
   <li><a href="https://www.kaggle.com/datasets/thedevastator/sms-spam-collection-a-more-diverse-dataset">Kaggle Link</a></li>
   <li><a href="https://huggingface.co/datasets/sms_spam">Hugging Face Link</a></li>
 </ul>
+
+## Acknowledgements
+
+<p>The dataset has been collected from various sources and is released under the CC BY-SA 4.0 license by Kaggle user Almeida et al.</p>
+
+## License
+
+    License: CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication
+    No Copyright - You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information.
 
 
  
