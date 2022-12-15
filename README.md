@@ -1,6 +1,10 @@
 # SMS-Spam-Classification-using-fine-tuned-RoBERTa-Base-Transformer
 
-![SMS-Spam-Detection](
+![SMS Spam Detection](https://i.ytimg.com/vi/mPW9bjVXbPU/maxresdefault.jpg)
+![Spam Filtering Process](https://d3i71xaburhd42.cloudfront.net/5956951c9f4bb7c2d0ac8d89f0217a54f0fce45d/2-Table1-1.png)
+![Deep Learning Architecture to filter SMS spam](https://ars.els-cdn.com/content/image/1-s2.0-S0167739X19306879-gr2.jpg)
+![Pretrained Roberta Transformer](https://thumbnails.huggingface.co/social-thumbnails/models/mariagrandury/roberta-base-finetuned-sms-spam-detection.png)
+
 ## Overview
 
 Spam is electronic communication that is unsolicited, undesirable, and potentially malicious. While SMS spam is often transmitted via a mobile network, email spam is sent and received through the Internet. Users who send spam will be referred to as "spammers." Since sending SMS texts is typically fairly inexpensive (if not free) for the user, it is enticing for unfair exploitation. This is exacerbated by the fact that users typically view SMS as a more secure and reliable method of communication than other sources, such as emails. 
@@ -32,7 +36,7 @@ In this project, I implemented text preprocessing by applying various functions 
 
 ## Model Architecture Explanation
 
-The transformer model used is a fine-tuned version of roberta-base on the sms-spam dataset. It achieves the following results on the test set:
+The transformer model used here is a fine-tuned version of roberta-base on the SMS spam collection dataset. It achieves the following results on the test set:
 
 <ul>
   <li>Accuracy: 0.9923</li>
@@ -42,7 +46,9 @@ The transformer model used is a fine-tuned version of roberta-base on the sms-sp
 The overall architecture of the fine-tuned RoBERTa-Base spam detection transformer model is plotted below:
 
 ![Model Architecture](https://www.kaggleusercontent.com/kf/113846181/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..wpilX0T2DB1c8YgTllxCdQ.QJtJ5oSYBVaiRz8unsbFDF_S2S48teQqtRLrCSYQlcif6DgAlBjnAORlJw1QlhBqaY7kuG8MpvckXHQ1iNdJIMm4H2dEGkLInNx91kE6iTjxSnIZD3grdk_X1TO-sUsTvKNS3o4KPAEbLe1QwNClsLcm8hYF4M_f4h7oMTl9cv_aGSWpNzqHaqjBKO-4DpWboxE2-_rZYfMxfh_NVp9GomSVxmDx6wPFTZRM49fL4owF-qVSJ7bWtIXc8v2p6bLX6As2sF9-qXj7QOtju8eIQUtzIuV0vypm-Jy4dcyIA_yjM49MhJLQRJnLGhR4AWetHST73KjY51MsSXrFxmyYluVtV6-q-CqLv5OizjdKfKWOelA3JwFvTfXf8RzUnQeHcHEf90bgwho-Ov73OG4k8uaPZ3ps9vmSAmMNtOcSS103gfG4nANa6VYT_NwUaF0n5iivChk1r2TjQxMZ9vSbrJhr99igzIycg3MFGcsEx1k7k18FYuBfpzcEwyh6hftRjRQQYynJM_Pp3MJU3wCQarQfqqohEyjy3JCTln7-lik44-xrl4G9w2bhPCYkD0bv8DJXkFFoS0RQ_tfkCoZZ4vpIylSeyZXVbgEAxIcXI18m7vFLsya0S-VkKtvikHjzhTs-uWrKBLUbk-gn1dAv77SJec7hNyBoqbSueiDeswo.r1XQoU9ZCAxF1ttSzlBf4Q/ROBERTA-BASE-FINETUNED-SMS-SPAM-DETECTION.png)
- 
+
+You can access the pretrained roberta-base transformer model used in this project through the following link: ![mariagrandury/roberta-base-finetuned-sms-spam-detection](https://huggingface.co/mariagrandury/roberta-base-finetuned-sms-spam-detection)
+
 Numerous dense fully-connected layers have been added to the roberta-base transformer as the base model which serves as the text embeddings alongside the input parameters, like input ids and attention masks, resulting in an optimized, customized and fine-tuned transformer architecture which has a dense final output layer for generating the binary predictions pertaining to spam detection.
 
 ## Detailed API Reference
