@@ -2,7 +2,7 @@
 
 ![SMS Spam Detection](https://miro.medium.com/max/1400/0*mbFBPcPUJD-53v3h.png)
 ![Deep Learning Architecture to filter SMS spam](https://ars.els-cdn.com/content/image/1-s2.0-S0167739X19306879-gr2.jpg)
-![A Spam Transformer Model](https://d3i71xaburhd42.cloudfront.net/7e9e45a9a495fb090551dbc3c3932fec3e2735a8/5-Figure3-1.png)
+![A Spam Transformer Model](https://d3i71xaburhd42.cloudfront.net/7e9e45a9a495fb090551dbc3c3932fec3e2735a8/5-Figure3-1.png](https://d3i71xaburhd42.cloudfront.net/5956951c9f4bb7c2d0ac8d89f0217a54f0fce45d/2-Table1-1.png)
 
 ## Overview
 
