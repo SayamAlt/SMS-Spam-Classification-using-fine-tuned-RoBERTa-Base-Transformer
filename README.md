@@ -1,10 +1,15 @@
 # SMS-Spam-Classification-using-fine-tuned-RoBERTa-Base-Transformer
 
-## Objective
+![SMS-Spam-Detection](
+## Overview
+
+Spam is electronic communication that is unsolicited, undesirable, and potentially malicious. While SMS spam is often transmitted via a mobile network, email spam is sent and received through the Internet. Users who send spam will be referred to as "spammers." Since sending SMS texts is typically fairly inexpensive (if not free) for the user, it is enticing for unfair exploitation. This is exacerbated by the fact that users typically view SMS as a more secure and reliable method of communication than other sources, such as emails. 
+
+The risks associated with spam communications for consumers are numerous: unwanted advertising, the disclosure of personal information, falling prey to fraud or financial schemes, getting seduced into malware and phishing websites, unintentional exposure to offensive content, etc. Spam messages raise operational costs for the network operator. 
 
 This project focuses on developing a deep learning-based transformer model which can accurately classify SMS messages as spam or legitimate. The primary goal of this study is to examine the characteristics of SMS messages and establish a software product/service which can automatically identify and block spam messages. Moreover, it emphasizes on the development of appropriate strategies and measures to identify and eradicate spam SMS messages from the domain of digital communication.
 
-In this project, I've trained and fine-tuned a RoBERTa-Base Spam Detection Classifier by augmenting additional neural network layers to the base RoBERTa transformer model to make it suitable enough for classifying spam SMS messages. 
+In this project, I implemented text preprocessing by applying various functions such as cleaning HTML, removing stopwords, digits, lowercase and punctuation characters, email addresses, etc. Subsequently, I trained and fine-tuned a RoBERTa-Base Spam Detection Classifier by augmenting additional neural network layers to the base roberta transformer model to make it suitable enough for classifying the spam SMS messages. The model evaluation metrics that have been adopted are typical classification metrics such as confusion matrix and classification report. The fine-tuned roberta-base transformer model produced an excellent accuracy score of more than 99%.
 
 ## Dataset Description
 
@@ -37,6 +42,8 @@ The transformer model used is a fine-tuned version of roberta-base on the sms-sp
 The overall architecture of the fine-tuned RoBERTa-Base spam detection transformer model is plotted below:
 
 ![Model Architecture](https://www.kaggleusercontent.com/kf/113846181/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..wpilX0T2DB1c8YgTllxCdQ.QJtJ5oSYBVaiRz8unsbFDF_S2S48teQqtRLrCSYQlcif6DgAlBjnAORlJw1QlhBqaY7kuG8MpvckXHQ1iNdJIMm4H2dEGkLInNx91kE6iTjxSnIZD3grdk_X1TO-sUsTvKNS3o4KPAEbLe1QwNClsLcm8hYF4M_f4h7oMTl9cv_aGSWpNzqHaqjBKO-4DpWboxE2-_rZYfMxfh_NVp9GomSVxmDx6wPFTZRM49fL4owF-qVSJ7bWtIXc8v2p6bLX6As2sF9-qXj7QOtju8eIQUtzIuV0vypm-Jy4dcyIA_yjM49MhJLQRJnLGhR4AWetHST73KjY51MsSXrFxmyYluVtV6-q-CqLv5OizjdKfKWOelA3JwFvTfXf8RzUnQeHcHEf90bgwho-Ov73OG4k8uaPZ3ps9vmSAmMNtOcSS103gfG4nANa6VYT_NwUaF0n5iivChk1r2TjQxMZ9vSbrJhr99igzIycg3MFGcsEx1k7k18FYuBfpzcEwyh6hftRjRQQYynJM_Pp3MJU3wCQarQfqqohEyjy3JCTln7-lik44-xrl4G9w2bhPCYkD0bv8DJXkFFoS0RQ_tfkCoZZ4vpIylSeyZXVbgEAxIcXI18m7vFLsya0S-VkKtvikHjzhTs-uWrKBLUbk-gn1dAv77SJec7hNyBoqbSueiDeswo.r1XQoU9ZCAxF1ttSzlBf4Q/ROBERTA-BASE-FINETUNED-SMS-SPAM-DETECTION.png)
+ 
+Numerous dense fully-connected layers have been added to the roberta-base transformer as the base model which serves as the text embeddings alongside the input parameters, like input ids and attention masks, resulting in an optimized, customized and fine-tuned transformer architecture which has a dense final output layer for generating the binary predictions pertaining to spam detection.
 
 ## Detailed API Reference
 
@@ -61,12 +68,21 @@ For installing the above mentioned libraries, execute the following command:
  pip install wget transformers numpy pandas matplotlib seaborn scikit-learn wordcloud
  
 ```
+
 The dataset can be accessed through the following 2 links:
 
 <ul>
   <li><a href="https://www.kaggle.com/datasets/thedevastator/sms-spam-collection-a-more-diverse-dataset">Kaggle Link</a></li>
   <li><a href="https://huggingface.co/datasets/sms_spam">Hugging Face Link</a></li>
 </ul>
+
+## Use Cases
+
+Nowadays, several SMS spam detection systems are regularly developed and maintained to detect and filter malicious messages and identify whether or not a message is spam or ham. We can enhance user experience by recognizing undesirable and unsolicited emails and preventing them from entering the user's mailbox. Spam detection and elimination are significantly enormous problems for email and IoT service providers these days.
+
+## Future Scope
+
+The model performance can be improved further by tuning the hyperparameters of the fine-tuned roberta-base transformer model such as raising the fully-connected dense layers, tweaking the parameters of the Adam optimizer or simply using other powerful optimizers, for instance, RMSProp, and increasing the number of epochs for training the model. The model can be used in any kind of SMS spam detection and filtering related software products/services which can potentially be great assets from a cyber security perspective. Furthermore, such softwares can lead to enhanced social media security services such as emails, SMS messages, etc.
 
 ## Acknowledgements
 
