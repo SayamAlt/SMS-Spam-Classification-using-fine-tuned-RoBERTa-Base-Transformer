@@ -25,34 +25,36 @@ The SMS Spam Collection v.1 is a public set of SMS messages that have been colle
   </tr>
 </table>
 
-## Installation Guide and Detailed API Reference
+## Detailed API Reference
 
-The libraries which need to be installed for implementing this project are as follows:
+The libraries used for implementing this project are as follows:
 
-<ol type='i'>
-  <li>wget: It is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc. To install this library, execute the following command:
-```bash
-pip install wget 
-```  </li>
-  <li>transformers: The Hugging Face transformers package is an immensely popular Python library providing pretrained models that are extraordinarily useful for a variety of natural language processing (NLP) tasks. You need to execute the following command for installing this library:
-  pip install transformers</li>
-  <li>tensorflow: TensorFlow is a Python library for fast numerical computing created and released by Google. It is a foundation library that can be used to create Deep Learning models directly or by using wrapper libraries that simplify the process built on top of TensorFlow. To install this library, you'll have to run the following command:
-  pip install tensorflow</li>
-  <li>matplotlib: It is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes simple things easy and hard things possible. It can be used to create publication quality plots and make interactive figures that can zoom, pan, update. You need to run the following command for installing this library:
-  pip install matplotlib</li>
-  <li>seaborn: It is a library that uses Matplotlib underneath to plot graphs. It can be used to visualize random distributions. To install this library, you need to execute the following command:
-  pip install seaborn</li>
-  <li>numpy: NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely. To install Numpy, you'll have to execute the following command: 
-  pip install numpy</li>
-  <li>pandas: Pandas is an open source Python package that is most widely used for data science/data analysis and machine learning tasks. It is built on top of another package named Numpy, which provides support for multi-dimensional arrays. You'll have to execute the following command for installing the Pandas library:
-  pip install pandas</li>
-  <li>sklearn: It is probably the most useful library for machine learning in Python. The sklearn library contains a lot of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction. 
-  To install scikit-learn, you need to run the following command:
-     ```pip install scikit-learn``` </li>
-  <li>wordcloud: Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites. You'll have to run the following command for installing this library:
-  pip install wordcloud</li>
+<ol type='a'>
+  <li>wget: It is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.</li>
+  <li>transformers: The Hugging Face transformers package is an immensely popular Python library providing pretrained models that are extraordinarily useful for a variety of natural language processing (NLP) tasks.</li>
+  <li>tensorflow: TensorFlow is a Python library for fast numerical computing created and released by Google. It is a foundation library that can be used to create Deep Learning models directly or by using wrapper libraries that simplify the process built on top of TensorFlow.</li>
+  <li>matplotlib: It is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes simple things easy and hard things possible. It can be used to create publication quality plots and make interactive figures that can zoom, pan, update.</li>
+  <li>seaborn: It is a library that uses Matplotlib underneath to plot graphs. It can be used to visualize random distributions.</li>
+  <li>numpy: NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely.</li>
+  <li>pandas: Pandas is an open source Python package that is most widely used for data science/data analysis and machine learning tasks. It is built on top of another package named Numpy, which provides support for multi-dimensional arrays.</li>
+  <li>sklearn: It is probably the most useful library for machine learning in Python. The sklearn library contains a lot of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction.</li>
+  <li>wordcloud: Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites.</li>
 </ol>
 
+For installing the above mentioned libraries, execute the following commands:
+
+```bash
+
+ pip install wget
+ pip install transformers
+ pip install numpy
+ pip install pandas
+ pip install matplotlib
+ pip install seaborn 
+ pip install scikit-learn
+ pip install wordcloud
+ 
+```
 The dataset can be accessed through the following 2 links:
 
 <ul>
