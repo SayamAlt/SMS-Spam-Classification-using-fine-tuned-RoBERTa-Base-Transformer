@@ -1,6 +1,6 @@
 # SMS-Spam-Classification-using-fine-tuned-RoBERTa-Base-Transformer
 
-![SMS Spam Detection](https://i.ytimg.com/vi/mPW9bjVXbPU/maxresdefault.jpg)
+![SMS Spam Detection](https://miro.medium.com/max/1400/0*mbFBPcPUJD-53v3h.png)
 ![Spam Filtering Process](https://d3i71xaburhd42.cloudfront.net/5956951c9f4bb7c2d0ac8d89f0217a54f0fce45d/2-Table1-1.png)
 ![Deep Learning Architecture to filter SMS spam](https://ars.els-cdn.com/content/image/1-s2.0-S0167739X19306879-gr2.jpg)
 ![Pretrained Roberta Transformer](https://thumbnails.huggingface.co/social-thumbnails/models/mariagrandury/roberta-base-finetuned-sms-spam-detection.png)
