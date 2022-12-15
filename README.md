@@ -57,7 +57,9 @@ The dataset can be accessed through the following 2 links:
 
 ## Acknowledgements
 
-<p>The dataset has been collected from various sources and is released under the CC BY-SA 4.0 license by Kaggle user Almeida et al.</p>
+    This dataset is used to train a machine learning or deep learning model for classifying SMS messages as either spam or not spam.
+
+    The SMS Spam Collection v.1 is a set of SMS labeled messages that have been collected for conducting mobile phone spam research. This dataset contains 5574 English, real, and non-encoded messages, tagged as being either legitimate (ham) or spam. The dataset has been collected from various sources and is released under the CC BY-SA 4.0 license by Kaggle user Almeida et al.
 
 ## License
 
